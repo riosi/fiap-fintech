@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color:#151940
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 414px;
+    
+}
+
+.page-header {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    width: 100%;
+    
+    
+}
+
+.page-title {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    
+}
+
+.page-title h1 {
+    font-weight: bold;
+    font-size: 3rem;
+    color: #151940;
+}
+
+.social-media-wrapper {
+    display: flex;
+    margin: 1rem auto;
+    
+}
+
+.social-media-box {
+    margin-right: 1rem;
+    background-color: #F5F6FA;
+    height: 53px;
+    width: 161px;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 500;
+    color: #151940;
+    padding-top: 1rem;
+}
+
+.line-break {
+    margin: 0 auto;
+    color: #486484;
+    width: 10%;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    margin-right: .5rem;
+    
+}
+
+.sign-up input {
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #F5F6FA;
+    color: #7F8192;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    width: 90%;
+}
+
+.terms {
+    display: flex;
+    margin: 1rem;
+    align-items:baseline;
+  
+}
+
+.terms input {
+    margin-left: 1rem;
+    
+}
+
+.terms p {
+    font-family: Inter;
+    font-size: .7rem;
+    color: #7F8192;
+    margin-left: .2rem;
+}
+
+.terms span {
+    color: #314BCE;
+    font-weight: 700;
+    font-family: Inter;
+}
+
+.button {
+    margin: 3rem auto;
+    width: 85%;
+}
+
+.signup-button {
+    width: 330px;
+    height: 56px;
+    border-radius: 8px;
+    border: none;
+    background-color: #AAADB7;
+    color: #fff;
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: .10rem;
+}
+
+.login-footer {
+    margin-left: 2rem;
+}
+
+.login-text {
+    font-family: Inter;
+    font-size: 14px;
+    color: #151940;
+    font-weight: 600;
+}
+
+.login-cta {
+    color: #314BCE;
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+}
+
