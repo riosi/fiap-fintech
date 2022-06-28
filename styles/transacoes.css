@@ -1,0 +1,160 @@
+.wrapper {
+    margin: 2rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    background: rgba(224, 226, 235, 0.69);
+    border-radius: 1rem;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.5px);
+    -webkit-backdrop-filter: blur(12.5px);
+    border: 1px solid rgba(245, 246, 250, 0.22);
+}
+
+.btn-navegacao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.botao-voltar, .botao-menu {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+.btn-navegacao img {
+    width: 1.2rem;
+}
+
+.titulo-card {
+    margin-top: 2.5rem;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 2.5rem;
+    letter-spacing: .1rem;
+    margin-left: 3rem;
+    color: #151940;
+}
+
+.despesas-receitas-box {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: .8rem;
+    border-radius: .8rem;
+    background: #fff;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.5px);
+    -webkit-backdrop-filter: blur(12.5px);
+    border: 1px solid rgba(245, 246, 250, 0.22);
+}
+
+.despesas-box {
+    background-color: #F5F6FA;
+    width: 162px;
+    padding: .5rem;
+    border-radius: .8rem;
+}
+
+.receitas-box {
+    background-color: #fff;
+    width: 162px;
+    padding: .5rem;
+}
+
+.despesas, .receitas {
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: light;
+    color: #151940;
+    margin-left: 2rem;
+    transform: translate(-5%, 30%)
+}
+
+.todas-transacoes {
+    margin: 0 auto;
+}
+.todas-transacoes a {
+    font-family: Inter;
+    font-size: 12px;
+    color: #314BCE;
+}
+
+.lista-despesas-receitas {
+    margin-left: 2.5rem;
+}
+
+.lista-despesas-receitas h2 {
+    font-family: Roboto;
+    font-weight: bold;
+    color: #151940;
+}
+
+.itens {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.descricao-categoria-box {
+    display: flex;
+    flex-direction: column;
+    margin-top: .5rem;
+    margin-left: 1rem;
+    width: 66%;
+}
+
+.item-descricao {
+    font-family: Roboto;
+    font-size: 1rem;
+    transform: translateY(50%);
+    font-weight: 500;
+    width: 33%;
+}
+
+.item-categoria {
+    font-family:Inter;
+    font-size: .7rem;
+    font-weight: bold;
+    color: #7F8192;
+    text-transform: uppercase;
+    transform: translateY(-40%);
+    width: 33%;
+}
+
+.item-valor {
+    display: flex;
+    justify-content: flex-end;
+    width: 33%;
+    margin-top: 1.5rem;
+    margin-right: 3rem;
+    font-weight: bold;
+    color: #151940;
+}
+
+.adicionar-button {
+    margin-left: .7rem;
+    width: 330px;
+    height: 56px;
+    border-radius: 8px;
+    border: none;
+    background-color: #314BCE;
+    color: #fff;
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: .10rem;
+
+    box-shadow: 0px 1px 1px  rgba(49, 75, 206, 0.1),
+    0px 2px 2px  rgba(49, 75, 206, 0.1),
+    0px 4px 4px  rgba(49, 75, 206, 0.1),
+    0px 8px 8px  rgba(49, 75, 206, 0.1), 
+    0px 16px 16px rgba(49, 75, 206, 0.1);
+}
